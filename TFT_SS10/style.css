@@ -1,0 +1,53 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+title{
+  display: block;
+  color: white;
+  background-color: #299cd6;
+  border: solid black 4px;
+}
+a{
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  color: white;
+  background-color: #58d0bc;
+  border: outset black 4px;
+  width: 200px;
+  padding: 4px;
+  text-decoration: none;
+  margin-left: auto;
+}
+h1{
+  font-family: SF Pro Display;
+  font-style: boldest;
+  text-align: center;
+  color: #000000;
+}
+p{
+  font-family: Apple system;
+  border: solid 4px black;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+  color: black;
+  background-color: #3aa0df;
+  width: 200px;
+  padding: 4px;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+li{
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+body{
+  background-image: url("https://staticg.sportskeeda.com/editor/2023/11/8fa7b-17011455081259-1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
