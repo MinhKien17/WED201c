@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="assets/IMG/favicon-32x32.png">
+
+    <!-- Remix Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Doan Minh Kien</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects" class="nav__link active-link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#info" class="nav__link active-link">My Info</a>
+                    </li>
+
+                    <li>
+                        <a href="#github" class="nav__link active-link">Git Hub</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link active-link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- Close nav button -->
+                 <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                 </div>
+            </div>
+            <div class="nav__toogle" id="nav-toggle">
+                <i class="ri-menu-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/IMG/portfolio_img_2.jpeg" alt="my portfolio pic" class="home__img">
+                <div class="home__data">
+                    <h1 class="home__name">Minh Kien</h1>
+                    <h3 class="home__profession">Web Developer</h3>
+                </div>
+
+                <a href="#projects" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+                    <span class="home__scroll-text">
+                        Recent Projects
+                    </span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title">RECENT PROJECTS</h2>
+            <!-- Project Container-->
+            <div class="project__container container grid">
+                <!-- Project Card -->
+                <article class="project__card">
+                    <a href="" target="_blank" class="project__link"> <!-- Cap nhat link cua project -->
+                        <h2 class="project__title">Project Koi Fish in Japan</h2>
+                        <p class="project__description">
+                            The second SWP project that I recently working on.<br>
+                            It is a website for helping customer to buy their Koi fish from Japan.<br>
+                            This includes booking to Japan, create fish Order and deliver those fish to customer. 
+                        </p>
+                        <img src="assets/IMG/KoiFish.png" alt="Second project" class="project__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <!-- Project Card -->
+                <article class="project__card">
+                    <a href="https://github.com/Ushio12345/SWP391-Team-4-ForBad-Project" target="_blank" class="project__link">
+                        <h2 class="project__title">Project Forbad</h2>
+                        <p class="project__description">
+                            The first SWP project that I anticipated.<br>
+                            It is a website for customer to book their playtime in courts that were managed by the owners. 
+                        </p>
+                        <img src="assets/IMG/Forbad.png" alt="First Project" class="project__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <!-- Project Card -->
+                <article class="project__card">
+                    <a href="https://minhkien17.github.io/WED201c/Final_Project/" target="_blank" class="project__link">
+                        <h2 class="project__title">Art Gallery</h2>
+                        <p class="project__description">
+                            Some other projects that i did during WED203c<br>
+                            It is not perfect but it is fun as i do this to improve my coding skill<br>
+                            The first one is Art Gallery that is responsive design which will change on different devices. 
+                        </p>
+                        <img src="assets/IMG/ArtGallery.png" alt="Third project" class="project__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <!-- Project Card -->
+                <article class="project__card">
+                    <a href="https://minhkien17.github.io/WED201c/TFT_SS10/" target="_blank" class="project__link">
+                        <h2 class="project__title">TFT Music</h2>
+                        <p class="project__description">
+                            Some other projects that i did during WED203c<br>
+                            It is not perfect but it is fun as i do this to improve my coding skill<br>
+                            The second one is TFT SS10 Music which i record the remix in a game.  
+                        </p>
+                        <img src="assets/IMG/TFT_Music.png" alt="Forth project" class="project__img">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Infor Section -->
+        <section class="infor section" id="info">
+            <h2 class="section__title">MY INFO</h2>
+
+            <div class="info__container container grid">
+                <!-- About -->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">About Me</h3>
+                        <p class="about__description">
+                            I am a third year student at <b>FPT University</b> in Ho Chi Minh.<br>
+                            I mostly work on the back-end which dealt with <br><b><strong>Database and Funtions</strong></b></br>
+                            I know a little bit of front-end which involves <br><b><strong>React and NodeJS</strong></b></br>
+                        </p>
+                        <a href="assets/CV/CV Doan Minh Kien (K17 HCM) - Sample CV-TopCV.vn.pdf" download="" target="_blank" class="button about__button">
+                            Download my Sample CV
+                        </a>
+                    </div>
+                    <img src="assets/IMG/portfolio_img.jpg" alt="about me img" class="about__img">
+                </div>
+
+                <!-- Experience -->
+                <div class="experience">
+                    <h3 class="info__title">Experience</h3>
+
+                    <!-- Container-->
+                    <div class="experience__content grid">
+                        <!-- Experience Card -->
+                        <div class="experience__data grid">
+                            <h2 class="experience__company">FPT University</h2>
+                            <div>
+                                <h3 class="experience__profession">Back End Developer</h3>
+                                <span class="experience__date">09/24 - present</span>
+                                <p class="expereience__description">
+                                    During the latest project, I am in charge of back-end development<br>
+                                    I use Java Spring Boot to create API and use PostgreSQL to store data.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Experience Card -->
+                        <div class="experience__data grid">
+                            <h2 class="experience__company"></h2>
+                            <div>
+                                <h3 class="experience__profession">Front End Developer</h3>
+                                <span class="experience__date">05/24 - 07/24</span>
+                                <p class="expereience__description">
+                                    In the first project, I was a member of front-end developer team<br>
+                                    I used React to design pages and Postman to test API.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Experience Card -->
+                        <div class="experience__data grid">
+                            <h2 class="experience__company"></h2>
+                            <div>
+                                <h3 class="experience__profession">Tester and Business Analyst</h3>
+                                <span class="experience__date">01/24 - 04/24</span>
+                                <p class="expereience__description">
+                                    Thanks to SWR and SWT, I was able to write down proper requirements while also tested out some of the scenaries.<br>
+                                    In these 2 subjects, I used SmartBear to test the project and Google Doc to stored the requirements and documents .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill -->
+                <div class="skills">
+                    <h3 class="info__title">Skills</h3>
+
+                    <!-- Container -->
+                    <div class="skills__content grid">
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/html5.svg" alt="HTML" class="skills__img">
+                            <span class="skills__name">HTML</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/css.svg" alt="CSS" class="skills__img">
+                            <span class="skills__name">CSS</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/javascript.svg" alt="JS" class="skills__img">
+                            <span class="skills__name">Javascript</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/react.svg" alt="React" class="skills__img">
+                            <span class="skills__name">React</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/java.svg" alt="Java" class="skills__img">
+                            <span class="skills__name">Java</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/spring.svg" alt="Spring" class="skills__img">
+                            <span class="skills__name">Spring Boot</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/postgreSQL_Logo.svg" alt="PostgreSQL" class="skills__img">
+                            <span class="skills__name">PostgreSQL</span>
+                        </div>
+
+                        <!-- Skill Box -->
+                        <div class="skills__box">
+                            <img src="assets/LOGO/github.svg" alt="Git Hub" class="skills__img">
+                            <span class="skills__name">GitHub</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Git Hub Section -->
+        <section class="github section" id="github">
+            <h2 class="section__title">GITHUB ACCOUNTS</h2>
+
+            <div class="github__container container grid">
+                <article class="github__card">
+                    <i class="ri-pass-expired-fill github__icon"></i>
+                    <h3 class="github__title">Darkin1123</h3>
+                    <p class="github__description">
+                        This is my first account that i use to code my first SWP project.<br>
+                        Since this is my first account so i don't commit much.
+                    </p>
+                    <a href="https://github.com/Darkin1123" target="_blank">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="github__card">
+                    <i class="ri-id-card-fill github__icon"></i>
+                    <h3 class="github__title"> MinhKien17 </h3>
+                    <p class="github__description">
+                        This is my main account that i use to code my latest projects.<br>
+                        Almost every day i commit on this account, feel free to check it out.
+                    </p>
+                    <a href="https://github.com/MinhKien17" target="_blank">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+            <!-- Container -->
+            <div class="contact__container container grid">
+
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" placeholder="Name" required class="contact__input"><!-- Name -->
+                        <input type="email" name="user_email" placeholder="Email" required class="contact__input"><!-- Email -->
+                    </div>
+
+                    <textarea name="user_message" placeholder="Message" id="" required class="contact__input contact__area"></textarea><!-- Message-->
+
+                    <button type="submit" class="button contact__button">Send Your Message</button>
+                    <p class="contact__message" id="contact-message"></p>
+
+                </form>
+
+                <div class="contact__social grid">
+                    <a href="https://www.facebook.com/profile.php?id=100014072617253" target="_blank" class="contact__social-link">
+                        <i class="ri-facebook-circle-fill"></i>
+                        <span>Facebook</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/minh-kien-doan-bb4b1a334/" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-fill"></i>
+                        <span>Linkedin</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+                
+                <li>
+                    <a href="#projects" class="footer__link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#info" class="footer__link">Infor</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; All Rights Reserved By Bedimcode
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up Button-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    
+
+    <!-- EMAILJS, Javascript CONFIG-->
+     <script src="assets/JS/scrollreveal.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="assets/JS/main.js"></script>
+</body>
+</html>
