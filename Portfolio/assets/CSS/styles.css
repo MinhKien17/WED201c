@@ -4,10 +4,9 @@
 /*--Declare and define Variable CSS--*/
 :root{
     --header-height:3.5rem;
-    /*--Later Use--*/
 
     /*--General Config--*/
-    --hue: 240;
+    --hue: 250;
     --first-color: hsl(var(--hue), 55%, 55%);
     --first-color-light: hsl(var(--hue), 55%, 65%);
     --first-color-alt: hsl(var(--hue), 50%, 50%);
@@ -16,6 +15,7 @@
     --text-color-light: hsl(var(--hue), 20%, 70%);
     --body-color: hsl(var(--hue), 40%, 16%);
     --container-color: hsl(var(--hue), 40%, 20%);
+
 
     /*--Config for font and typography--*/
     --body-font: "Syne", sans-serif;
